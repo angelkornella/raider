@@ -1,1 +1,23 @@
 
+body,
+html {
+    height: 100%;
+}
+
+a:hover {
+    color: #0d6efd ! important;
+}
+
+.list-group li {
+    border: 0 none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-control-prev{
+    left: -30px/* Aligns it at the top */
+}
+
+.carousel-control-next{
+    right: -30px/* Aligns it at the top */
+}
